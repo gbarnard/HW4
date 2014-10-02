@@ -8,20 +8,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HW4", "http://localhost:504
 		UseIISExpress = "true"
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_50499"
-		Debug.AspNetCompiler.PhysicalPath = "C:\Users\gbarnard\Desktop\HW4\"
+		Debug.AspNetCompiler.PhysicalPath = "..\HW4\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50499\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_50499"
-		Release.AspNetCompiler.PhysicalPath = "C:\Users\gbarnard\Desktop\HW4\"
+		Release.AspNetCompiler.PhysicalPath = "..\HW4\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50499\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
-		SlnRelativePath = "C:\Users\gbarnard\Desktop\HW4\"
+		SlnRelativePath = "..\HW4\"
 	EndProjectSection
 EndProject
 Global

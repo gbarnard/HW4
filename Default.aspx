@@ -4,14 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
-</head>
+    <title>
+    </title><link href="stylesheet.css" rel="stylesheet" type="text/css" /></head>
 <body>
     <form id="form1" runat="server">
     <div style="height: 454px">
     
-        <asp:Label ID="lbl_Main" runat="server" Text="Grant's Salary Calculator"></asp:Label>
-        <br />
+        Grant&#39;s Salary Calculator<br />
         <br />
         Wage:<asp:TextBox ID="tbox_wage" runat="server"></asp:TextBox>
         <br />

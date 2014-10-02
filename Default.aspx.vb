@@ -4,7 +4,6 @@ Partial Class _Default
 
     Protected Sub btn_submit_Click(sender As Object, e As EventArgs) Handles btn_submit.Click
 
-        'Specify constat values
 
         'Create variables to hold the values entered by the user
         Dim wage As Decimal = tbox_wage.Text
@@ -12,8 +11,6 @@ Partial Class _Default
         Dim pretax As Decimal = tbox_preTax.Text
         Dim aftertax As Decimal = tbox_afterTax.Text
         Dim taxRate As Decimal = 0
-
-        tbox_wage.Focus()
 
         'Display message if Textbox is empty
         If tbox_wage.Text = "" Then
