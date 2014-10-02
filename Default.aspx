@@ -8,7 +8,33 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
+    <div style="height: 454px">
+    
+        <asp:Label ID="lbl_Main" runat="server" Text="Grant's Salary Calculator"></asp:Label>
+        <br />
+        <br />
+        Wage:<asp:TextBox ID="tbox_wage" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Hours:<asp:TextBox ID="tbox_hours" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Pretax Deductions:<asp:TextBox ID="tbox_preTax" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Aftertax Deductions<asp:TextBox ID="tbox_afterTax" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        Tax Rate:<asp:Label ID="lbl_taxRate" runat="server"></asp:Label>
+        <br />
+        <br />
+        Net Pay:<asp:Label ID="lbl_netPay" runat="server"></asp:Label>
+        <br />
+        <br />
+        <asp:Button ID="btn_submit" runat="server" Text="Submit" />
+        <br />
+        <br />
+        <asp:Button ID="btn_clear" runat="server" Text="Clear" />
     
     </div>
     </form>
