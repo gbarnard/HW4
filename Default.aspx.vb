@@ -13,21 +13,21 @@ Partial Class _Default
         Dim taxRate As Decimal = 0
 
         'Display message if Textbox is empty
-        If tbox_wage.Text = "" Then
-            MsgBox("Please enter your hourly wage")
-        End If
+        'If tbox_wage.Text = "" Then
+        '    MsgBox("Please enter your hourly wage")
+        'End If
 
-        If tbox_hours.Text = "" Then
-            MsgBox("Please enter your hours worked")
-        End If
+        'If tbox_hours.Text = "" Then
+        '    MsgBox("Please enter your hours worked")
+        'End If
 
-        If tbox_preTax.Text = "" Then
-            MsgBox("Please enter your pretax deductions")
-        End If
+        'If tbox_preTax.Text = "" Then
+        '    MsgBox("Please enter your pretax deductions")
+        'End If
 
-        If tbox_afterTax.Text = "" Then
-            MsgBox("Please enter your aftertax deductions")
-        End If
+        'If tbox_afterTax.Text = "" Then
+        '    MsgBox("Please enter your aftertax deductions")
+        'End If
 
        
         Dim preDeduction As Decimal

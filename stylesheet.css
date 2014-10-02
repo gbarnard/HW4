@@ -1,0 +1,19 @@
+body
+{
+	color: black;
+	background-color: #66CC66;
+	font-size: 18pt;
+	text-align: center;
+	
+}
+
+h1 {	color: black;
+	font-size: 32pt;
+	font-weight:bold;
+	font-style: italic;
+}
+
+h2 {	font-size: 18pt;
+	text-align: center;
+	color: red;
+	}
